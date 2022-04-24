@@ -1,0 +1,122 @@
+
+   
+.cards{
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.card{
+	padding: 20px;
+	display: flex;
+	align-items:  center;
+	justify-content: space-between;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	margin: 20px 5px ;
+	flex-basis: 300px;
+	flex-grow: 1;
+}
+
+.card img{
+	width: 150px;
+	border-radius: 6px;
+}
+
+.card h3{
+	flex-grow: 1;
+	padding-left: 20px;
+	font-size: 18px;
+}
+
+.banner{
+	background-image: linear-gradient(-225deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.5) 50%), url(images/page.jpg); 
+	color: white;
+	padding: 150px 0px;
+	background-size: cover;
+	background-position: center;
+}
+
+.banner h1{
+	font-size: 50px;
+}
+
+.banner h2{
+	font-size: 30px;
+	font-weight: lighter;
+	margin-bottom: 40px;
+}
+
+.container{
+	width:  700px;
+	margin: 0 auto;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+
+body{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 18px;
+	text-align: center;
+}
+
+h1,h2{
+	font-family: 'Akshar', sans-serif;
+	font-weight:  bold;
+	text-align: center;
+}
+
+h3{
+	font-family: 'Akshar', sans-serif;
+	text-align: center;
+}
+
+a{
+	text-decoration: none ;
+}
+
+cite {
+	font-size: 90%;
+	font-style: italic;
+	font-variant: small-caps;
+	padding-top: 10px;
+	clear: both;
+	display: block;
+	color: #111111;
+}
+
+nav ul {
+	list-style: none;
+	padding: 0;
+	text-align: center;
+	color: white;
+
+}
+
+nav ul li {
+	display: inline;
+	font-variant: small-caps;
+	letter-spacing: 2px;
+	border-right: 1px solid #999999;
+	margin-right: 10px;
+	padding-right: 10px;
+}
+
+nav ul li:last-child {
+	border: none;
+	margin: 0px;
+	padding: 0px;
+}
