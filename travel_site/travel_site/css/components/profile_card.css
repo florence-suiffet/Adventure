@@ -1,0 +1,13 @@
+.profile_card{
+	padding: 20px;
+	justify-content: center;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.2);
+	border-radius: 6px;
+	margin: 20px 5px ;
+	flex-basis: 300px;
+
+}
+
+.profile_card h2{
+	color: #F26419;
+}
