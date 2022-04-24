@@ -1,0 +1,17 @@
+.presentation1 h1{
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 30px;
+	margin: 50px 5px ;
+	flex-basis: 300px;
+
+}
+
+.presentation1 h2{
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+	border-radius: 30px;
+	margin: 50px 5px ;
+	flex-basis: 300px;
+
+}

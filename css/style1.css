@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar&family=Nunito');
+@import url("components1/avatar1.css");
+@import url("components1/banner1.css");
+@import url("components1/button1.css");
+@import url("components1/card1.css");
+@import url("components1/container1.css");
+@import url("components1/profile_banner1.css");
+@import url("components1/profile_card1.css");
+@import url("components1/presentation1.css");
+
+
+body{
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 17px;
+	text-align: center;
+}
+
+h1,h2,h3{
+	font-family: 'Akshar', sans-serif;
+	font-weight:  bold;
+	text-align: center;
+}
+
+h4{
+	text-align: center;
+}
+a{
+	text-decoration: none ;
+}
+
+p{
+	text-align: start;
+}
